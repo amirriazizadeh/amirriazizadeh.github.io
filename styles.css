@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    color: #16a085;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #16a085;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #16a085;
+    padding-bottom: 5px;
+    color: #2c3e50;
+}
+
+section p, section ul {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section a {
+    color: #16a085;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.job p {
+    margin: 5px 0;
+    color: #666;
+}
